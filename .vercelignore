@@ -1,0 +1,21 @@
+# Node / PHP deps (jika Anda akan build di Vercel, jangan upload vendor)
+node_modules
+vendor
+
+# Direktori yang besar atau tidak perlu
+storage
+tests
+.env
+.env.* 
+.phpunit.result.cache
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Build output lokal yang tidak perlu
+public/hot
+public/storage
+
+# Opsional: kecualikan file build tertentu agar tetap di-deploy
+!public/build
+!public/build/assets
